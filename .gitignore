@@ -2,8 +2,14 @@
 .env*
 !.env.example
 
-# ai
-/.codex
+# PHP / Composer
+/vendor
+/.phpunit.cache
+/runtime
+.phpunit.result.cache
+
+# claude code local config
+/.claude/settings.local.json
 
 # editors configs
 /.idea
@@ -16,5 +22,4 @@
 # windows/Mac thumbnail cache
 .DS_Store
 Thumbs.db
-# claude code local config
-/.claude/settings.local.json
+
