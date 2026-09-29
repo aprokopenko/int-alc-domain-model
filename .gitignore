@@ -1,0 +1,20 @@
+# project files
+.env*
+!.env.example
+
+# ai
+/.codex
+
+# editors configs
+/.idea
+/.vscode
+/nbproject
+/.vagrant
+/.ai
+/.playwright-mcp
+
+# windows/Mac thumbnail cache
+.DS_Store
+Thumbs.db
+# claude code local config
+/.claude/settings.local.json
