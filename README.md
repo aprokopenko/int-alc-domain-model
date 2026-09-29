@@ -1,0 +1,1 @@
+# int-alc-domain-model
